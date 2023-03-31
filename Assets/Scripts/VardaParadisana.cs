@@ -27,6 +27,6 @@ public class VardaParadisana : MonoBehaviour {
 	public void savedTxt(){
 		rand=Random.Range(0, varianti.Length);
 		txt=input.GetComponent<Text> ().text;
-		txtShow.GetComponent<Text> ().text = varianti [rand] + txt.ToUpper () + "!";
+		txtShow.GetComponent<Text> ().text = varianti [rand] +" !"; .//"+ txt.ToUpper () + "
 	}
 }
