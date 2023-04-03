@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class AtteluParadisana : MonoBehaviour {
-	public GameObject bean, lacis, tante, masina, paK, paL;
+	public GameObject bean, lacis, tante, masina, paK, paL, mainigais, izmSl;
+	public Sprite[] attMas;
 
 	public void BeanAtt(bool v){
 		bean.SetActive(v); //checkmark
@@ -28,4 +30,13 @@ public class AtteluParadisana : MonoBehaviour {
     {
         bean.transform.localScale = new Vector2(-1, 1);
     }
+	public void Dropdown(int i) 
+	{
+			mainigais.GetComponent<Image>().sprite = attMas[i];
+    }
+	public void Slider()
+	{
+		float izm=izmSl.GetComponent<Slider>().value;
+		mainigais.transform.localScale=new Vector2(1f*izm, 1f*izm);
+	}
 }
