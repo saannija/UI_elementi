@@ -10,10 +10,11 @@ Projekts, kas demonstrē UI elementu lietojumu, tēma: MR. Bean
 - [x] C# skripta izveide un piesaiste objektam
 - [x] Image elementa lietojums
 - [x] Toggle elementa lietojums
-- [ ] Toggle Group komponentes piesaiste
-- [ ] Drop down elementa lietojums
-- [ ] Slider elementa lietojums
+- [x] Toggle Group komponentes piesaiste
+- [x] Drop down elementa lietojums
+- [x] Slider elementa lietojums
 - [ ] Audio source objekta lietojums
 - [ ] Scroll view elementa lietojums
 - [ ] Drag and drop funkcionalitātes ieviešana
+- [ ] Parslegsanas starp ainam
 - [ ] Projekta sagatavošana .exe un WebGL formātos 
